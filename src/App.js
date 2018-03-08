@@ -32,7 +32,7 @@ const Button = props => {
 class App extends Component {
   constructor() {
     super();
-    this.setState = {
+    this.state = {
       operations: []
     };
     this.handleClick = this.handleClick.bind(this);
